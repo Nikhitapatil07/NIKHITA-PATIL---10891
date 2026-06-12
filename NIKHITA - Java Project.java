@@ -12,7 +12,7 @@ public class Main {
         int[][] seats = new int[4][4];
         int totalCost = 0;
 
-        System.out.println("===== MOVIE TICKET BOOKING SYSTEM =====");
+        System.out.println("MOVIE TICKET BOOKING SYSTEM");
         System.out.println("Movie Name : " + movieName);
         System.out.println("Show Time : " + showTime);
 
@@ -65,7 +65,7 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("\n===== BOOKING CONFIRMATION =====");
+        System.out.println("\n BOOKING CONFIRMATION");
         System.out.println("Movie : " + movieName);
         System.out.println("Show Time : " + showTime);
         System.out.println("Total Cost : ₹" + totalCost);
